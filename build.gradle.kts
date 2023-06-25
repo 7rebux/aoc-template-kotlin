@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.8.20"
 }
 
-group = "org.example"
+group = "de.nosswald"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -18,5 +18,5 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(11)
+    jvmToolchain(8)
 }
